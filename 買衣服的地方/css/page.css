@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+ header,body,footer {
+    font-family: "Microsoft JhengHei", "PingFang TC", "Noto Sans TC", "Heiti TC", "Arial", sans-serif;
+}
+header{
+    background-color: rgb(132, 178, 199);
+    height: 80px;
+    width: 100%;
+    position: relative;
+}
+header h1{
+    color: white;
+    line-height: 80px;
+    margin-left: 100px;
+
+}
+header li{
+    display: inline;
+    margin-right: 4vw;
+}
+header ul{
+    position:absolute;
+    right: 5vw;
+    top: 0;
+    line-height: 80px;
+    color: white;
+
+    }
+header a{
+        color: white;
+        text-decoration: none;
+    }
+header a:hover{
+        text-decoration: underline;
+        font-size: larger;
+        color: wheat;
+}
+
+    .page-title {
+        text-align: center; /* 將文字置中 */
+        margin: 20px 0; /* 上下間距 */
+      }
+      
+      .page-title h1 {
+        font-size: 36px; /* 標題大小 */
+        font-weight: bold; /* 加粗文字 */
+        text-transform: uppercase; /* 全大寫 */
+        margin: 0; /* 去除預設外邊距 */
+      }
+      
+      .page-title hr {
+        width: 50%; /* 分隔線的寬度 */
+        border: none; /* 移除預設邊框 */
+        border-top: 2px solid black; /* 自定義分隔線樣式 */
+        margin: 10px auto 0; /* 調整間距並置中 */
+      }
+.hats{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 150px 80px;
+}
+
+  
+.hats div{
+    width: 300;
+    text-align: center;
+}
+.hats img{
+    width: 100;
+    border-radius: 10px;
+    width:300px;
+    height: 300px;
+    object-fit: cover;
+}
+.hats a ,h3{   
+    font-size: 20px;
+    margin: 20px 0;
+    text-decoration: none;
+    color: black;
+}
+.hats a,h3:hover{
+    font-size: larger;
+}
+.hats p{
+    font-size: 14px;
+    line-height: 1.6em;
+}
+
+footer{
+    background-color: rgb(132, 178, 199);
+height: 80px;
+width: 100%;
+position: relative;
+}
+footer li{
+    display: inline;
+    margin-right: 4vw;
+    line-height: 40px;
+}
+footer ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 40px;
+}
+footer a{
+    color:white;
+    text-decoration: none;
+}
+footer a:hover{
+    text-decoration: underline;
+    font-size: larger;
+    color: wheat;
+}
