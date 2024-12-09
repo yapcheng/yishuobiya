@@ -1,0 +1,169 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+ header,body,footer {
+    font-family: "Microsoft JhengHei", "PingFang TC", "Noto Sans TC", "Heiti TC", "Arial", sans-serif;
+}
+header{
+    background-color: rgb(132, 178, 199);
+    height: 80px;
+    width: 100%;
+    position: relative;
+}
+header h1{
+    color: white;
+    line-height: 80px;
+    margin-left: 100px;
+
+}
+header li{
+    display: inline;
+    margin-right: 4vw;
+}
+header ul{
+    position:absolute;
+    right: 5vw;
+    top: 0;
+    line-height: 80px;
+    color: white;
+
+    }
+header a{
+        color: white;
+        text-decoration: none;
+    }
+header a:hover{
+        text-decoration: underline;
+        font-size: larger;
+        color: wheat;
+    }
+.XXXs Picture{
+    color:  rgb(253, 253, 253);
+    height: 85vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 80px 100px;
+}
+.Picture{
+    border: 3px rgb(251, 251, 251) solid;
+    width: 600px; 
+    height: 600px;
+    object-fit: cover; 
+    border-radius: 50px;
+    display: flex;
+    margin-left: auto;
+}
+.XXXs1{
+    display: flex;
+    height: 80vh;
+}
+.XXXs1 h4{
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    text-align: left;
+}
+.pic{
+    width: 50%;
+    
+}
+.Price{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 80px;
+    flex-direction: column;
+}
+.Price p{
+    line-height: 30px;
+    justify-content: left;
+}
+.Price h2{
+    font-size: 60px;
+}
+.Price li{
+    display: inline;
+    margin-right: 2vw;
+    
+}
+.Price ul{
+    position:absolute;
+    right: 15vw;
+    line-height: 40px;
+}
+.Price hr{
+    color: black;
+    border: 1px black solid;
+    width: 400px;
+}
+.XXXs1 p{
+    text-align: right;
+}
+h3{
+    font-size: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8vh;
+    margin-top: 20px;
+    text-align: center;
+}
+.Wearing {
+    display: flex; /* 使用 Flexbox 布局 */
+    justify-content: space-between; /* 两边对齐，保持间距 */
+    align-items: center; /* 垂直方向居中对齐 */
+    padding: 5vh 100px 5vh;
+    height: 80vh;
+    
+}
+
+.Wearing div {
+    text-align: center; /* 图片和标题居中 */
+    width: 45%; /* 每个 <div> 占据 45% 的宽度 */
+}
+
+.hat1, .hat2 {
+    border: 3px rgb(251, 251, 251) solid;
+    width: 600px; 
+    height: 600px;
+    border-radius: 50px; /* 圆角效果 */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 添加阴影 */
+    object-fit: cover;
+    
+}
+footer{
+    background-color: rgb(132, 178, 199);
+height: 80px;
+width: 100%;
+position: relative;
+}
+footer li{
+    display: inline;
+    margin-right: 4vw;
+    line-height: 40px;
+}
+footer ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 40px;
+}
+footer a{
+    color:white;
+    text-decoration: none;
+}
+footer a:hover{
+    text-decoration: underline;
+    font-size: larger;
+    color: wheat;
+}
